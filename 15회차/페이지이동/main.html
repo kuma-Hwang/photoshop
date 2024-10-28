@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>페이지이동-메인화면</title>
+    <style>
+        table.top td a { color:#666; text-decoration: none;font-size: 16px; padding-right: 30px;
+        }
+        table.top {border-collapse: collapse;}
+        tr.logo td {
+            border-top: 1px solid #ccc;
+            text-align: center;
+        }
+        tr.menu td { text-align: center; background: #000;}
+        tr.menu td a {color: #fff; text-decoration: none; font-size: 18px; font-weight: bold;}
+        table.top td:hover a { color: aqua;}
+        tr.menu td:hover { background: rebeccapurple;}
+    </style>
+
+</head>
+<body>
+    <table border="0" cellpadding="0" cellspacing="0" align="center">
+        <!-- 상단메뉴 -->
+        <tr>
+            <td colspan="3">
+                <table class="top" align="right">
+                    <tr>
+                        <td height="50"><a href="#a">로그인</a></td>
+                        <td><a href="#a">회원가입</a></td>
+                        <td><a href="#a">사이트맵</a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- 로고 -->
+        <tr class="logo">
+            <td colspan="3"><a href="main.html"><img src="images/logo.jpg"></td>
+            </a></tr>
+
+        <!-- 메뉴 -->
+        <tr class="menu">
+            <td width="200" height="40"><a href="about.html">회사소개</a></td>
+            <td width="200" height="40"><a href="photo.html">사진첩</a></td>
+            <td width="200" height="40"><a href="board.html">게시판</a></td>
+        </tr>
+        <!-- 메인화면 -->
+        <tr>
+            <td colspan="3"><img src="images/mainimg.jpg"></td>
+        </tr>
+
+        <!-- 하단 -->
+        <tr>
+            <td colspan="3"><img src="images/copyright.jpg" usemap="#copyright"></td>
+
+            <map name="copyright">
+                <area shape="rect" coords="484,50,555,80" href="mailto:" title="이메일문의"
+            </map>
+        </tr>
+    </table>
+</body>
+</html>

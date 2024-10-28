@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div사용</title>
+
+    <style>
+         *{ padding: 0; margin: 0;} /*여백초기화*/
+        a {text-decoration: none;} /*링크 밑줄 제거*/
+        /* 상단배너 */
+        #top { width: 700px; height: 200px; background: yellow; margin: 0 auto;}
+
+        /* 메뉴 */
+        #nav { width: 700px; height: 40px; line-height: 40px; background: pink; margin: 0 auto;}
+        #nav p { display: inline-block; padding:0 50px;}
+        #nav p a { color: #fff; font-size:18px; font-weight:bold ;}
+        /* 메인이미지 */
+        #main { width: 700px; height: 1700px; background: yellow; margin: 0 auto;}
+
+    </style>
+
+</head>
+<body>
+    <!-- 상단배너 -->
+    <div id="top"></div>
+
+    <!-- 메뉴 -->
+    <div id="nav">
+        <P><a href="test1.html">베이지테이블</a></P>
+        <P><a href="test2.html">굿모닝브래드</a></P>
+        <P><a href="test3.html">이번달 이벤트!</a></P>
+    </div>
+
+    <!-- 메인이미지 -->
+    <div id="main"></div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /*초기설정*/
+        *{ padding: 0; margin: 0;} /*여백초기화*/
+        a {text-decoration: none;} /*링크 밑줄 제거*/
+
+        /*상단메뉴*/
+        #top { width: 600px; height: 50px; line-height: 50px;
+            text-align: right; border-bottom: 1px solid #666;
+            margin: 0 auto;}
+
+        #top p { display: inline-block;} /*한줄로 배치*/
+
+        #top p a { color:#666; font-size: 14px; padding-right: 20px;}
+        #top p:hover a { color: black;}
+
+        /*로고*/
+        #logo { width: 600px; height: 147px; margin: 0 auto; text-align: center;}
+
+        /*메뉴*/
+        #menu { width: 600px; height: 45px; line-height:45px; 
+            background:  black; margin: 0 auto;
+            text-align: center;}
+
+        #menu p { display: inline-block; padding: 0 60px;}
+        #menu p a { color: #fff; font-size: 18px; font-weight: bold;}
+        #menu p:hover a {color: yellow;}
+
+        /*메인화면*/
+        #main { width: 600px; height: 200px; margin: 0 auto;}
+
+        /*하단영역*/
+        #footer { width: 600px; height: 111px; margin: 0 auto;}
+    </style>
+</head>
+<body>
+    <!-- 상단메뉴 -->
+    <div id="top">
+        <p><a href="login.html">로그인</a></p>
+        <p><a href="join.html">회원가입</a></p>
+        <p><a href="#a">사이트맵</a></p>
+    </div>
+    <!-- 로고 -->
+    <div id="logo">
+        <a href="main.html"><img src="images/logo.jpg"></a>
+    </div>
+
+    <!-- 메뉴 -->
+    <div id="menu">
+        <p><a href="about.html">회사소개</a></p>
+        <p><a href="photo.html">사진첩</a></p>
+        <p><a href="board.html">게시판</a></p>
+    </div>
+
+    <!--회원가입-->
+    <div id="main">회원가입 입니다.</div>
+
+    <!-- 하단영역 -->
+    <div id="footer"><img src="images/copyright.jpg"></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+style>
+		  /*CSS불러 오는법 */
+		  /*
+		  1. 태그명은 태그명 그대로 예)p, table, b
+		  2. 부모 자식 태그는 순서대로 예)table tr td
+		  3. 중복 태그일 경우 class명 붙여서 따로 불러오기 예) p.a  p 태그 옆에 calss="a" 추가
+		  */
+			
+			p { color:#4e3394; font-size:24px;}
+			
+			table.point { border-collapse:collapse;} /*셀 겹치게 만들기*/
+			table.point td { border:1px solid #ccc; text-align:center;}  /*선굵기 선종류 선색상*/
+			
